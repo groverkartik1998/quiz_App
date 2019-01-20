@@ -1,0 +1,170 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Questions"
+        android:layout_marginBottom="16dp"
+        android:textSize="34sp"
+        android:textAllCaps="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. What movie is the song 'Kajra Re' from?"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:textSize="15sp" />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bunty Aur Babli" />
+        <RadioButton android:id="@+id/radio_1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salaam Namaste" />
+        <RadioButton android:id="@+id/radio_1.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dus" />
+        <RadioButton android:id="@+id/radio_1.4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kabhi Khushi Kabhie Gham"
+            android:layout_marginBottom="16dp" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. 'Where's the Party Tonight', 'Rock and Roll Soniye', and 'Mitwa' are songs from what popular movie?
+"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_2.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kal Ho Naa Ho" />
+        <RadioButton android:id="@+id/radio_2.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kabhi Alvida Naa Kehna" />
+        <RadioButton android:id="@+id/radio_2.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don (2006)" />
+        <RadioButton android:id="@+id/radio_2.4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhoom 2"
+            android:layout_marginBottom="16dp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. In how many films was Shah Rukh Khan named Rahul?"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:textSize="15sp" />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9" />
+        <RadioButton android:id="@+id/radio_3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10" />
+        <RadioButton android:id="@+id/radio_3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8" />
+        <RadioButton android:id="@+id/radio_3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:layout_marginBottom="16dp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. What was Salman Khan's dog's name in 'Hum Aapke Hain Kaun'?"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/name_editText"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content"
+        android:hint="Type your answer here"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Which are the movies that are done by both salman khan and sharukh khan?"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/karan_arjun_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/black"
+        android:text="Karan arjun" />
+    <CheckBox
+        android:id="@+id/don_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/black"
+        android:text="Don" />
+    <CheckBox
+        android:id="@+id/zero_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/black"
+        android:text="Zero" />
+    <CheckBox
+        android:id="@+id/race_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        android:text="Race" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="SUBMIT"
+        android:onClick="submit"/>
+
+
+</LinearLayout>
+    </ScrollView>
